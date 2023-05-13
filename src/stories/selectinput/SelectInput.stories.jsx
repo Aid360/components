@@ -1,0 +1,22 @@
+import React from "react";
+import SelectInput from "./SelectInput";
+
+export default { title: "Select Input", component: SelectInput };
+
+export const Default = {
+  args: {
+    label: "Zodia symbol",
+    placeholder: "Your zodiac symbol (based off of your date of birth).",
+    example: "Leo",
+    options: [
+      { value: "aries", label: "Aries" },
+      { value: "taurus", label: "Taurus" },
+      { value: "gemini", label: "Gemini" },
+      { value: "cancer", label: "Cancer" },
+      { value: "leo", label: "Leo" },
+      { value: "virgo", label: "Virgo" },
+      { value: "libra", label: "Libra" },
+      { value: "scorpio", label: "Scorpio" },
+    ],
+  },
+};
