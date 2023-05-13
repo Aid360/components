@@ -1,4 +1,3 @@
-import React from "react";
 import SelectInput from "./SelectInput";
 
 export default { title: "Select Input", component: SelectInput };
