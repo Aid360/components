@@ -1,0 +1,19 @@
+.button {
+  padding: 8px;
+
+  border: none;
+  border-radius: 0.25em;
+
+  cursor: pointer;
+}
+
+// Variants
+.button--primary {
+  background-color: var(--color-accent-blue);
+  color: #f0efff;
+}
+
+.button--secondary {
+  background-color: var(--color-surface-0);
+  color: var(--color-text);
+}
