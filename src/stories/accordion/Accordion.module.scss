@@ -1,0 +1,19 @@
+.accordion {
+  background-color: var(--color-surface-1);
+  border: 1px solid var(--color-surface-0);
+  border-radius: 0.25rem;
+
+  padding: 8px;
+}
+
+.accordion__summary {
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  font-weight: 800;
+}
+
+.accordion__content {
+  padding: 1rem;
+}
