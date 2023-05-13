@@ -28,3 +28,11 @@
     color-scheme: dark;
   }
 }
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
