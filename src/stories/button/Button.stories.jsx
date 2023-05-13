@@ -5,7 +5,7 @@ export default { title: "Button", component: Button };
 
 export const Default = {
   args: {
-    children: "Click me!",
+    children: "Launch!",
   },
   argTypes: {
     variant: {
