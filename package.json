@@ -1,6 +1,7 @@
 {
   "name": "@safetyhub-cloud/components",
   "repository": "https://github.com/safetyhub-cloud/components.git",
+  "homepage": "http://SafetyHub-Cloud.github.io/components",
   "version": "1.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -16,12 +17,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "start": "storybook dev -p 6006",
+    "build": "storybook build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
