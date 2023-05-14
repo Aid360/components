@@ -1,7 +1,7 @@
 import Tooltip from "./Tooltip";
 import Badge from "../badge/Badge";
 
-export default { title: "Tooltip", component: Tooltip };
+export default { title: "Components/Tooltip", component: Tooltip };
 
 export const Default = {
   args: {

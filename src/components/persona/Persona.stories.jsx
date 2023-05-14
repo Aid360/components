@@ -1,6 +1,6 @@
 import Persona from "./Persona";
 
-export default { title: "Persona", component: Persona };
+export default { title: "Components/Persona", component: Persona };
 
 export const Default = {
   args: {

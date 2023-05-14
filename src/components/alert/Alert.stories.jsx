@@ -1,7 +1,7 @@
 import Alert from "./Alert";
 import Button from "../button/Button";
 
-export default { title: "Alert", component: Alert };
+export default { title: "Components/Alert", component: Alert };
 
 function DummyChildren() {
   return <Button color="accent-red">Launch</Button>;

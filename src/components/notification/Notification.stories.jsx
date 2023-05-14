@@ -1,6 +1,6 @@
 import Notification from "./Notification";
 
-export default { title: "Notification", component: Notification };
+export default { title: "Components/Notification", component: Notification };
 
 export const Default = {
   args: {

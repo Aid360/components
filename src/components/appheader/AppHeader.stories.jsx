@@ -1,6 +1,6 @@
 import AppHeader from "./AppHeader";
 
-export default { title: "App Header", component: AppHeader };
+export default { title: "Components/App Header", component: AppHeader };
 
 export const Default = {
   args: {},

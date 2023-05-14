@@ -1,6 +1,6 @@
 import SelectInput from "./SelectInput";
 
-export default { title: "Select Input", component: SelectInput };
+export default { title: "Components/Select Input", component: SelectInput };
 
 export const Default = {
   args: {

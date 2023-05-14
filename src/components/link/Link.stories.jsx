@@ -1,6 +1,6 @@
 import Link from "./Link";
 
-export default { title: "Link", component: Link };
+export default { title: "Components/Link", component: Link };
 
 export const Default = {
   args: {

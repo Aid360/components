@@ -1,6 +1,6 @@
 import Badge from "./Badge";
 
-export default { title: "Badge", component: Badge };
+export default { title: "Components/Badge", component: Badge };
 
 export const Default = {
   args: {

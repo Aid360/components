@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export default { title: "Button", component: Button };
+export default { title: "Components/Button", component: Button };
 
 export const Default = {
   args: {
