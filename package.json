@@ -2,7 +2,7 @@
   "name": "@safetyhub-cloud/components",
   "repository": "https://github.com/safetyhub-cloud/components.git",
   "homepage": "http://SafetyHub-Cloud.github.io/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
