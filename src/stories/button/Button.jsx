@@ -4,9 +4,9 @@ import "../../index.scss";
 export default function Button(props) {
   var classNames = [
     styles["button"],
-    props.variant
-      ? styles["button--" + props.variant]
-      : styles["button--primary"],
+    props.color
+      ? styles["button--" + props.color]
+      : styles["button--surface-0"],
   ];
 
   return (

@@ -16,13 +16,43 @@
   filter: brightness(0.9);
 }
 
-// Variants
-.button--primary {
+// Colors
+.button--surface-0 {
+  background-color: var(--color-surface-0);
+  color: var(--color-text);
+}
+
+.button--surface-1 {
+  background-color: var(--color-surface-1);
+  color: var(--color-text);
+}
+
+.button--background {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.button--accent-blue {
   background-color: var(--color-accent-blue);
   color: #f0efff;
 }
 
-.button--secondary {
-  background-color: var(--color-surface-0);
-  color: var(--color-text);
+.button--accent-red {
+  background-color: var(--color-accent-red);
+  color: #f0efff;
+}
+
+.button--accent-green {
+  background-color: var(--color-accent-green);
+  color: #12111e;
+}
+
+.button--accent-yellow {
+  background-color: var(--color-accent-yellow);
+  color: #12111e;
+}
+
+.button--accent-orange {
+  background-color: var(--color-accent-orange);
+  color: #12111e;
 }
