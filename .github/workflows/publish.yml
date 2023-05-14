@@ -2,7 +2,7 @@
 name: Publish Components
 
 on:
-  release: 
+  release:
     types: [published]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -24,8 +24,10 @@ jobs:
         uses: actions/setup-node@v2.5.2
         with:
           node-version: 18.15.0
+      - name: Install dependencies
+        run: npm install
       - name: Build Storybook
-        run: npm build
+        run: npm run build
       - name: NPM Publish
         # You may pin to the exact commit or the version.
         # uses: JS-DevTools/npm-publish@541aa6b21b4a1e9990c95a92c21adc16b35e9551
@@ -36,7 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './storybook-static'
+          path: "./storybook-static"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
