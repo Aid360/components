@@ -34,7 +34,6 @@ jobs:
         uses: JS-DevTools/npm-publish@v2.1.0
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          registry: https://registry.npmjs.org/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

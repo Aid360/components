@@ -1,11 +1,8 @@
 {
-  "name": "@safetyhub-cloud/components",
+  "name": "safetyhub-components",
   "repository": "https://github.com/safetyhub-cloud/components.git",
   "homepage": "http://SafetyHub-Cloud.github.io/components",
-  "version": "1.0.4",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
+  "version": "1.0.5",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
