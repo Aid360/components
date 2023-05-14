@@ -6,7 +6,7 @@ export const Default = {
   args: {},
   argTypes: {
     app: {
-      options: ["risks"],
+      options: ["risks", "safetyhub"],
       control: { type: "select" },
     },
   },
