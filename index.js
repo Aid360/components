@@ -1,6 +1,5 @@
 // Export components for modules
 
-export { Accordion } from "./src/components/accordion/Accordion";
 export { Alert } from "./src/components/alert/Alert";
 export { AppHeader } from "./src/components/appheader/AppHeader";
 export { Badge } from "./src/components/badge/Badge";
