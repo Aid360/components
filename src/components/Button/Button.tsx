@@ -1,21 +1,20 @@
 import React from "react";
 import "./Button.module.css";
 
-interface ButtonProps {
+interface Props {
   label: string;
-  color: [
-    "blue",
-    "red",
-    "green",
-    "yellow",
-    "orange",
-    "surface-0",
-    "surface-1",
-    "background"
-  ];
+  color:
+    | "blue"
+    | "red"
+    | "green"
+    | "yellow"
+    | "orange"
+    | "surface-0"
+    | "surface-1"
+    | "background";
 }
 
-const Button = (props: ButtonProps) => {
+const Button = (props: Props) => {
   return (
     <button className={["button", `button--${props.color}`].join(" ")}>
       {props.label}
