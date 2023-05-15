@@ -2,7 +2,7 @@
   "name": "safetyhub-components",
   "repository": "https://github.com/safetyhub-cloud/components.git",
   "homepage": "http://SafetyHub-Cloud.github.io/components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
