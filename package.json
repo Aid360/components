@@ -29,7 +29,7 @@
     "sass": "^1.62.1",
     "tslib": "^2.5.0"
   },
-  "main": "dist/cjs/index.js",
+  "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
