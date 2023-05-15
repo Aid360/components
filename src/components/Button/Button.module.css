@@ -1,47 +1,58 @@
-.badge {
+.button {
   padding: 8px 12px;
 
   border: none;
   border-radius: 0.25em;
+
+  cursor: pointer;
+  font-size: 1em;
 }
 
-// Colors
-.badge--surface-0 {
+.button:hover {
+  filter: brightness(1.1);
+}
+
+.button:active {
+  filter: brightness(0.9);
+}
+
+/* Colors */
+.button--surface-0 {
   background-color: var(--color-surface-0);
   color: var(--color-text);
 }
 
-.badge--surface-1 {
+.button--surface-1 {
   background-color: var(--color-surface-1);
   color: var(--color-text);
 }
 
-.badge--background {
+.button--background {
   background-color: var(--color-background);
   color: var(--color-text);
 }
 
-.badge--accent-blue {
+.button--accent-blue {
   background-color: var(--color-accent-blue);
   color: #f0efff;
 }
 
-.badge--accent-red {
+.button--accent-red {
   background-color: var(--color-accent-red);
   color: #f0efff;
 }
 
-.badge--accent-green {
+.button--accent-green {
   background-color: var(--color-accent-green);
   color: #12111e;
 }
 
-.badge--accent-yellow {
+.button--accent-yellow {
   background-color: var(--color-accent-yellow);
   color: #12111e;
 }
 
-.badge--accent-orange {
+.button--accent-orange {
   background-color: var(--color-accent-orange);
   color: #12111e;
 }
