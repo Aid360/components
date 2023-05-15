@@ -12,7 +12,8 @@
     "Components"
   ],
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "publish": "npm run build && npm publish"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
