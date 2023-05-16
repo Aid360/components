@@ -1,8 +1,8 @@
 import React from "react";
 import "./AppHeader.module.css";
 
-import RisksLogo from "../../images/apps/Risks.svg";
-import SafetyHubLogo from "../../images/apps/SafetyHub.svg";
+import RisksLogo from "../../images/apps/Risks";
+import SafetyHubLogo from "../../images/apps/SafetyHub";
 
 const apps = {
   risks: {
@@ -16,16 +16,14 @@ const apps = {
 };
 
 interface Props {
-  app: 
-    | "safetyhub"
-    | "risks"
+  app: "safetyhub" | "risks";
 }
 
 export default function AppHeader(props: Props) {
   return (
     <div className="appHeader">
       <span className="appLogo">
-        <img src={apps[props.app].img} />
+        {React.createElement(apps[props.app].img)}
         <h1>{apps[props.app].name}</h1>
       </span>
     </div>
