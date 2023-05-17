@@ -1,18 +1,11 @@
 import React from "react";
-import "./Link.module.scsss";
+import "./Link.module.scss";
 
 interface Props {
   label: string;
   href: string;
-  target?:
-    | "self"
-    | "blank"
-    | "parent"
-    | "top"
-  variant?:
-    | "default"
-    | "arrow"
-    | "button"
+  target?: "self" | "blank" | "parent" | "top";
+  variant?: "default" | "arrow" | "button";
   color:
     | "blue"
     | "red"
@@ -21,7 +14,7 @@ interface Props {
     | "orange"
     | "surface-0"
     | "surface-1"
-    | "background"
+    | "background";
 }
 
 export default function Link(props: Props) {
