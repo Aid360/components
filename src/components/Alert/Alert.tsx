@@ -1,5 +1,5 @@
 import React from "react";
-import "./Alert.module.css";
+import "./Alert.module.scss";
 
 import Button from "../Button/Button";
 

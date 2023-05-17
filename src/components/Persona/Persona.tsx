@@ -1,10 +1,10 @@
 import React from "react";
-import "./Persona.module.css";
+import "./Persona.module.scss";
 
 interface Props {
-  href: string
-  img: string
-  name: string
+  href: string;
+  img: string;
+  name: string;
 }
 
 export default function Persona(props: Props) {

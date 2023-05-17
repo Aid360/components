@@ -1,5 +1,5 @@
 import React from "react";
-import "./Badge.module.css";
+import "./Badge.module.scss";
 
 interface Props {
   label: string;
@@ -15,7 +15,7 @@ interface Props {
 }
 
 const Button = (props: Props) => {
-    return <span className={`badge badge--${props.color}`}>{props.label}</span>;
-}
+  return <span className={`badge badge--${props.color}`}>{props.label}</span>;
+};
 
-export default Button
+export default Button;

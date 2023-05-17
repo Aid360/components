@@ -1,5 +1,5 @@
 import React from "react";
-import "./Link.module.css";
+import "./Link.module.scsss";
 
 interface Props {
   label: string;
