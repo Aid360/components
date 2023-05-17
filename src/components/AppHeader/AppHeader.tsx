@@ -1,5 +1,5 @@
 import React from "react";
-import "./AppHeader.module.css";
+import "./AppHeader.module.scss";
 
 import RisksLogo from "../../images/apps/Risks";
 import SafetyHubLogo from "../../images/apps/SafetyHub";
