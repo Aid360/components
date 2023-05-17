@@ -1,0 +1,40 @@
+.notification {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.notification__details {
+  margin-left: 8px;
+  display: inline-block;
+
+  > .notification__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  > .notification__description {
+    margin: 0;
+  }
+}
+
+// Varriant
+.notification--info {
+  background-color: var(--color-accent-blue);
+  color: var(--color-text);
+}
+
+.notification--warning {
+  background-color: var(--color-accent-orange);
+  color: var(--color-text);
+}
+
+.notification--error {
+  background-color: var(--color-accent-red);
+  color: var(--color-text);
+}
