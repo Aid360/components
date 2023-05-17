@@ -26,6 +26,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "rollup-plugin-scss": "^4.0.0",
     "sass": "^1.62.1",
     "tslib": "^2.5.0"
   },
