@@ -14,8 +14,8 @@ interface Props {
     | "background";
 }
 
-const Button = (props: Props) => {
+const Badge = (props: Props) => {
   return <span className={`badge badge--${props.color}`}>{props.label}</span>;
 };
 
-export default Button;
+export default Badge;
