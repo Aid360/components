@@ -1,4 +1,6 @@
 import React from "react";
+import "../../index.scss"
+
 import "./Button.module.scss";
 
 interface Props {

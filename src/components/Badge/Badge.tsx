@@ -1,4 +1,6 @@
 import React from "react";
+import "../../index.scss"
+
 import "./Badge.module.scss";
 
 interface Props {

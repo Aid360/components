@@ -1,4 +1,6 @@
 import React from "react";
+import "../../index.scss"
+
 import "./Alert.module.scss";
 
 import Button from "../Button/Button";

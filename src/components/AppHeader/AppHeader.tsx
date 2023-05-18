@@ -1,4 +1,6 @@
 import React from "react";
+import "../../index.scss"
+
 import "./AppHeader.module.scss";
 
 import RisksLogo from "../../images/apps/Risks";

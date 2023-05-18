@@ -1,4 +1,6 @@
 import React from "react";
+import "../../index.scss"
+
 import "./Link.module.scss";
 
 interface Props {

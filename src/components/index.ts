@@ -1,5 +1,3 @@
-import "../index.scss"
-
 export { default as Alert } from "./Alert";
 export { default as AppHeader } from "./AppHeader";
 export { default as Badge } from "./Badge";
