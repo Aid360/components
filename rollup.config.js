@@ -29,7 +29,7 @@ const config = [
       typescript({ tsconfig: "./tsconfig.json" }),
 
       scss({
-        output: "./build/css/style.css",
+        fileName: "styles.css",
         failOnError: true,
       }),
     ],
