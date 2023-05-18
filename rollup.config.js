@@ -15,15 +15,17 @@ const config = [
         format: "cjs",
         sourcemap: true,
       },
-      {
-        file: packageJson.module,
-        format: "esm",
-        sourcemap: true,
-      },
+      // {
+      //   file: packageJson.module,
+      //   format: "esm",
+      //   sourcemap: true,
+      // },
     ],
     plugins: [
       resolve(),
-      commonjs(),
+      commonjs({
+        strictRequires: true,
+      }),
       typescript({ tsconfig: "./tsconfig.json" }),
 
       scss({
