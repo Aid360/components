@@ -4,7 +4,7 @@
   "homepage": "http://safetyhub-cloud.github.io/components",
   "author": "SafetyHub",
   "license": "MIT",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "💄 A collection of React components.",
   "keywords": [
     "React",
@@ -30,8 +30,8 @@
     "sass": "^1.62.1",
     "tslib": "^2.5.0"
   },
-  "main": "dist/esm/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/cjs/index.js",
   "files": [
     "dist"
   ],
