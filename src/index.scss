@@ -1,0 +1,47 @@
+:root {
+    --color-accent-red: #ff4b4d;
+    --color-accent-green: #65f916;
+    --color-accent-blue: #1565dc;
+    --color-accent-yellow: #ffcb41;
+    --color-accent-pink: #fb71a4;
+    --color-accent-orange: #f79716;
+
+    --color-background: #fff;
+    --color-surface-0: #f0efff;
+    --color-surface-1: #d7d7d9;
+
+    --color-text: #12111e;
+    --color-subtext: #1d1c2d;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #12111e;
+        --color-surface-0: #31313e;
+        --color-surface-1: #272734;
+
+        --color-text: #f0efff;
+        --color-subtext: #c1c0d2;
+    }
+
+  html {
+        color-scheme: dark;
+    }
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+}
