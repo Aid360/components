@@ -22,7 +22,7 @@
 
   cursor: pointer;
 
-  background-color: var(--color-surface-0);
+  background-color: var(--color-accent-yellow);
   color: var(--color-text);
 
   font-size: 1em;
@@ -58,4 +58,37 @@
       filter: brightness(0.9);
     }
   }
+}
+
+// Colors ~ Arrow
+.link--color--blue > .link--arrow > .arrow > path {
+  fill: var(--color-accent-blue) !important;
+}
+
+.link--color--red > .link--arrow > .arrow > path {
+  fill: var(--color-accent-red) !important;
+}
+
+.link--color--green > .link--arrow > .arrow > path {
+  fill: var(--color-accent-green) !important;
+}
+
+.link--color--yellow > .link--arrow > .arrow > path {
+  fill: var(--color-accent-yellow) !important;
+}
+
+.link--color--orange > .link--arrow > .arrow > path {
+  fill: var(--color-accent-orange) !important;
+}
+
+.link--color--surface-0 > .link--arrow > .arrow > path {
+  fill: var(--color-accent-surface-0) !important;
+}
+
+.link--color--surface-1 > .link--arrow > .arrow > path {
+  fill: var(--color-accent-surface-1) !important;
+}
+
+.link--color--background > .link--arrow > .arrow > path {
+  fill: var(--color-accent-background) !important;
 }

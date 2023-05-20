@@ -7,7 +7,7 @@ interface Props {
   href: string;
   target?: "self" | "blank" | "parent" | "top";
   variant?: "default" | "arrow" | "button";
-  color:
+  color?:
     | "blue"
     | "red"
     | "green"
@@ -21,7 +21,7 @@ interface Props {
 export default function Link(props: Props) {
   return (
     <a
-      className={`link link--${props.variant ? props.variant : "default"}`}
+      className={`link link--${props.variant ? props.variant : "default"} link--color--${props.color}`}
       href={props.href}
       target={`_${props.target ? props.target : "self"}`}
     >
