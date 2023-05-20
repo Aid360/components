@@ -2,22 +2,22 @@ import React from "react";
 
 import "./AppHeader.module.scss";
 
-import RisksLogo from "../../images/apps/Risks";
-import SafetyHubLogo from "../../images/apps/SafetyHub";
+import RisksLogo from "../../images/apps/RisksLogo";
+import PromoLogo from "../../images/apps/PromoLogo";
 
 const apps = {
   risks: {
     name: "Risks",
     img: RisksLogo,
   },
-  safetyhub: {
-    name: "Safety Hub",
-    img: SafetyHubLogo,
+  aid360: {
+    name: "Aid360",
+    img: PromoLogo,
   },
 };
 
 interface Props {
-  app: "safetyhub" | "risks";
+  app: "aid360" | "risks";
 }
 
 export default function AppHeader(props: Props) {

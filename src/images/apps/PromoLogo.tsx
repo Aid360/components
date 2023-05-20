@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SafetyHub() {
+export default function PromoLogo() {
   return (
     <svg
       width="230"

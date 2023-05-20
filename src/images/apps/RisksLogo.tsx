@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Risks() {
+export default function RisksLogo() {
   return (
     <svg
       width="128"

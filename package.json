@@ -1,9 +1,9 @@
 {
-  "name": "safetyhub-components",
-  "repository": "https://github.com/safetyhub-cloud/components",
-  "author": "SafetyHub",
+  "name": "Aid360-components",
+  "repository": "https://github.com/Aid360/components",
+  "author": "Aid360",
   "license": "MIT",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "💄 A collection of React components.",
   "keywords": [
     "React",
